@@ -1,0 +1,6 @@
+# Terraform files - don't upload these!
+.terraform/
+.terraform.lock.hcl
+terraform.tfstate
+terraform.tfstate.backup
+*.tfvars
