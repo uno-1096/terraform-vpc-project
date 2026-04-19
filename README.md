@@ -2,9 +2,10 @@
 
 A self-hosted cloud infrastructure built with Terraform on AWS.
 
-## What's Running
-- Nextcloud — personal cloud storage at https://cloud.unocloud.us
-- More coming soon...
+## Live Services
+- ☁️ Nextcloud — https://cloud.unocloud.us
+- 🔐 Vaultwarden — https://vault.unocloud.us
+- 📊 Uptime Kuma — https://status.unocloud.us
 
 ## Infrastructure
 - AWS VPC with public and private subnets
@@ -13,15 +14,21 @@ A self-hosted cloud infrastructure built with Terraform on AWS.
 - Elastic IP — 98.90.123.85
 - Docker + Docker Compose
 - Nginx reverse proxy
-- SSL certificate via Let's Encrypt
+- SSL certificates via Let's Encrypt
 - Cloudflare DNS + DDoS protection
+
+## Self Hosted Tools
+- **Nextcloud** — Personal cloud storage (Google Drive alternative)
+- **Vaultwarden** — Personal password manager (Bitwarden alternative)
+- **Uptime Kuma** — Server monitoring dashboard
 
 ## Tools Used
 - Terraform
 - AWS CLI
-- Docker
+- Docker + Docker Compose
 - Nginx
-- Certbot
+- Certbot (Let's Encrypt)
+- Cloudflare
 - Linux (Ubuntu 22.04)
 
 ## Author
